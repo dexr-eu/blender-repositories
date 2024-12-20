@@ -1,0 +1,27 @@
+{
+  "version": "v1",
+  "blocklist": [],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "dexr_blender_asset_creator",
+      "name": "Dexr Asset Creator",
+      "tagline": "XR learning solutions finally made easy and affordable",
+      "version": "1.1.0",
+      "type": "add-on",
+      "maintainer": "Kim Dimitri Note <team@dexr.eu>",
+      "license": ["SPDX:GPL-3.0-or-later"],
+      "blender_version_min": "4.2.0",
+      "website": "https://help.dexr.eu",
+      "copyright": ["2002-2024 Kim Note", "1998 Dexr BV"],
+      "permissions": {
+        "network": "Needs to sync to Dexr to authenticate & upload assets to servers",
+        "files": "Export GLTF & renders to disk"
+      },
+      "tags": ["Import-Export"],
+      "archive_url": "./dexr_blender_asset_creator-1.1.0.zip",
+      "archive_size": 22195,
+      "archive_hash": "sha256:d68f81062164160a2e0542dcdd601d93a558170f09c4f73ccfda9bc5225007f8"
+    }
+  ]
+}
